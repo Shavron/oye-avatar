@@ -1,7 +1,7 @@
 {
   "name": "oye-avatar",
-  "version": "2.1.1",
-  "description": "now use avatar in just one click",
+  "version": "2.1.2",
+  "description": "Now use avatar in just one click",
   "author": "Shavron",
   "license": "MIT",
   "repository": "Shavron/oye-avatar",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "start": "microbundle-crl watch  --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
