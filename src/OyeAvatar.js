@@ -44,7 +44,7 @@ OyeAvatar.defaultProps = {
   width: '100',
   name: 'Avtar',
   shape: 'square',
-  background: '#000',
+  background: '#fff',
   onhover: '',
   gender: 'male',
   className: ''
