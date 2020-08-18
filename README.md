@@ -4,14 +4,15 @@
 
 [![NPM](https://img.shields.io/npm/v/oye-avatar.svg)](https://www.npmjs.com/package/oye-avatar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## A Simple react component for Avatar
+
+![Example](https://i.imgur.com/05MV0Iq.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
 
 ## react-horizontal-strip-datepicker
-
-A simple react component for Avatar
-![Example](https://i.imgur.com/05MV0Iq.png)
 
 ## Install
 
