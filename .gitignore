@@ -9,6 +9,7 @@ build
 dist
 .rpt2_cache
 src
+srcc
 
 
 # misc
