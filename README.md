@@ -13,16 +13,25 @@ npm install --save oye-avatar
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'oye-avatar'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import OyeAvatar from 'oye-avatar'
 import 'oye-avatar/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+ReactDOM.render(
+  <React.StrictMode>
+    <OyeAvatar
+      name='John'
+      gender='male'
+      width='200'
+      shape='circle'
+      background='blue'
+      onhover='shine'
+      className='__any__class'
+    />
+  </React.StrictMode>,
+  document.getElementById('root')
+)
 ```
 
 ## License
