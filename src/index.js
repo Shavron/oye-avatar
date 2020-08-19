@@ -11,14 +11,6 @@ function OyeAvatar({
   gender,
   className
 }) {
-  let b = 'eom'
-  let c = 'hc'
-  let d = 'se'
-  let e = 'oj'
-
-  const revStr = (str) => {
-    return str.split('').reverse().join('')
-  }
   const style = {
     width: parseInt(width) + 'px',
     height: parseInt(height ? height : width) + 'px',
@@ -30,9 +22,7 @@ function OyeAvatar({
     <div className={`hover__${onhover} ${className}`}>
       <figure>
         <img
-          src={`//${
-            revStr(e) + revStr(d) + revStr(c) + revStr(b)
-          }.io/api/v1/${gender}/${name}`}
+          src={`//www.vlsitechnologies.com/api/get_oye_avatar.php?name=${name}&gender=${gender}`}
           style={style}
           alt='avatar'
         />
@@ -41,12 +31,12 @@ function OyeAvatar({
   )
 }
 OyeAvatar.defaultProps = {
-  width: '100',
+  width: '75',
   name: 'Avtar',
-  shape: 'square',
-  background: '#000',
+  shape: 'circle',
+  background: '#fff',
   onhover: '',
-  gender: 'male',
+  gender: 'female',
   className: ''
 }
 

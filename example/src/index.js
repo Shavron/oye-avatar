@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import OyeAvatar from 'oye-avatar'
-import 'oye-avatar/dist/index.css'
+// import 'oye-avatar/dist/index.css'
 
 ReactDOM.render(
   <React.StrictMode>
